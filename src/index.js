@@ -1,8 +1,12 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import { BrowserRouter } from "react-router-dom"
+
 import Hello from "./Hello"
 import Header from "./Header"
 import Footer from "./Footer"
+import About from "./About.jsx"
+import Projects from "./Projects"
 import './css/tailwind.css'
 
 const App = () => {
@@ -19,4 +23,8 @@ const App = () => {
     )
 };
 
-ReactDOM.render(<App />, document.getElementById("app"))
+ReactDOM.render((
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+), document.getElementById("app"))
