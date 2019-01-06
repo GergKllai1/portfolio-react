@@ -1,12 +1,47 @@
-import React from "react"
+import React, { Component } from "react"
 
-const Projects = () => {
-    return (
-        <div>
-            <h1 class="text-grey-dark">My Projects</h1>
-            <h1 class="text-grey-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia doloribus a quas impedit libero, eius quaerat dignissimos earum sint. Fugiat voluptate, rem explicabo sapiente corporis placeat quaerat obcaecati earum perferendis?</h1>
-        </div>
-    )
-}
+class Projects extends Component {
+    constructor() {
+        super();
+        this.state = {
+            projects: [
+                        {
+                            "id": 1,
+                            "name": "My First Website"
+                        },
+                        {
+                            "id": 2,
+                            "name": "FizzBuzz"
+                        }
+
+                    ]
+        };
+    }
+
+    render() {
+        const projects = this.state.projects
+        let projectsList 
+
+        if (projects.length > 0) {
+            projectsList = projects.map(project => {
+                return (
+                    <div key={project.id}>
+                        <h3 className="text-grey-dark">
+                            {project.name}
+                        </h3>
+                    </div>
+                )
+            })
+        }
+
+
+        return (
+            <div>
+                <h1 className="text-grey-dark">My Projects</h1>
+                {projectsList}
+            </div>
+        )
+    }
+};
 
 export default Projects
