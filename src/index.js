@@ -14,7 +14,7 @@ const App = () => {
         <div className="min-h-screen">
             <div className="flex flex-col w-full fixed pin-l pin-y">
                 <Header />
-                <div className="px-4 pt-4 flex-1 overflow-y-scrol">
+                <div className="px-4 pt-4 flex-1 overflow-y-scroll">
                     <Switch>
                         <Route exact path='/' component={Hello}></Route>
                         <Route exact path='/about' component={About}></Route>
