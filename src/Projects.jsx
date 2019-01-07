@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import axios from "axios"
-import { UndrawDesigner } from "react-undraw-illustrations"
+import { UndrawDashboard } from "react-undraw-illustrations"
 
 import ProjectCard from "./ProjectCard"
 
@@ -40,7 +40,7 @@ class Projects extends Component {
             <div className="px-4 pt-4 flex-1 overflow-y-scroll">
                 <div className="flex mb-4">
                     <div className="w-1/4">
-                        <UndrawDesigner />
+                        <UndrawDashboard primaryColor='#12283a' height='200px' />
                     </div>
                     <div className="w-3/4">
                         <h1>My Projects</h1>
