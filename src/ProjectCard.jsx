@@ -1,4 +1,5 @@
 import React from "react";
+import Popup from 'reactjs-popup'
 
 const ProjectCard = props => {
   let project = props.project;
@@ -15,24 +16,29 @@ const ProjectCard = props => {
         <p className="text-grey-darker text-base">{project.description}</p>
       </div>
 
-      <div className="flex items-center justify-between leading-none p-2 md:p-4">
-        <button className="bg-blue-darkest hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full">
-          Details
-        </button>
+      <div className="flex items-center justify-around leading-none p-2 md:p-4">
+        <img
+            src="../src/images/details.png"
+            alt="Oops there should be an image here!"
+            className="p-px border-2 h-12 rounded-full rounded-lg hover:border-black"
+          />
+            
         <a href={project.github} target="_blank">
           <img
             src="../src/images/github2.png"
             alt="Oops there should be an image here!"
-            className="p-px h-16 rounded-full rounded-lg hover:bg-blue-dark"
+            className="p-px border-2 h-12 rounded-full rounded-lg hover:border-black"
           />
         </a>
+        {project.website ? 
         <a href={project.website} target="_blank">
           <img
             src="../src/images/website.png"
             alt="Oops there should be an image here!"
-            className="p-px h-16 rounded-full rounded-lg hover:bg-blue-dark"
+            className="p-px border-2 h-12 rounded-full rounded-lg hover:border-black"
           />
         </a>
+        : ''}
       </div>
     </div>
   );
