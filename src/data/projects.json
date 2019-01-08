@@ -1,29 +1,50 @@
 [
-    {
-        "id": 1,
-        "name": "My First Website",
-        "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-        "description": "This was my first project. The guy lost, but won the popular vote!",
-        "detail": "Some detail goes here!",
-        "github": "https://github.com/",
-        "website": "https://index.hu/"
-    },
-    {
-        "id": 2,
-        "name": "UI Design",
-        "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-        "description": "Designing user interfaces is fun. I want to learn more about that...",
-        "detail": "Some detail goes here!",
-        "github": "https://github.com/",
-        "website": "https://index.hu/"
-
-    },
-    {
-        "id": 3,
-        "name": "Mobile UX",
-        "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-        "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.",
-        "detail": "Some detail goes here!",
-        "github": "https://github.com/"
-    }
+  {
+    "id": 1,
+    "name": "My First Website",
+    "image": "../src/images/myfirst.png",
+    "description": "My first website. It's noth much as to be expected, just kept here to see where I come from :)",
+    "github": "https://github.com/GergKllai1/GergKllai1.github.io",
+    "website": "https://gergkllai1.github.io/",
+    "technology1": "../src/images/html.png",
+    "technology2": "../src/images/css.png"
+  },
+  {
+    "id": 2,
+    "name": "Library simulator",
+    "image": "../src/images/library.jpg",
+    "description": " A library simulator written in ruby tested with rspec. Users can create a collection, add books to it, people can take out and return books. The application was made to practice basic concepts of application design test driven development and collaboration",
+    "github": "https://github.com/GergKllai1/library-challenge",
+    "technology1": "../src/images/ruby.png",
+    "technology2": "../src/images/rspec.png"
+  },
+  {
+    "id": 3,
+    "name": "ATM simulator",
+    "image": "../src/images/atm.jpg",
+    "description": "An ATM simulator written in ruby tested with rspec. Users can make account, deposit, withdraw, get a job and work. The application was made to pratice test driven development, pair programming and the connection between classes.",
+    "github": "https://github.com/GergKllai1/ATM_Challenge",
+    "technology1": "../src/images/ruby.png",
+    "technology2": "../src/images/rspec.png"
+  },
+  {
+    "id": 4,
+    "name": "BMI Calcultator in Javascript",
+    "image": "../src/images/bmi.jpg",
+    "description": "A simple BMI calculator written in JavaScript tested with cucumber. User can calculate his/her BMI with a toggle for changing from metric to imperial method. The application was made to pratice JS concepct, testing in JS and collaboration with a coding partner. ",
+    "github": "https://github.com/GergKllai1/BMI-calculator",
+    "website": "https://bmicalc.netlify.com/",
+    "technology1": "../src/images/js.png",
+    "technology2": "../src/images/cucumber.png"
+  },
+  {
+    "id": 5,
+    "name": "Address Book",
+    "image": "../src/images/address.jpg",
+    "description": "An address book written in JavaScript using browser local storage for storing contacts and cucumber for testing.The user can add contacts and which are being stored and displayed on the page. The application was made to practice local storage in the browser, and testing in javascript with cucumber",
+    "github": "https://github.com/GergKllai1/Adress_book/",
+    "website": "https://gergkllai1.github.io/Adress_book/",
+    "technology1": "../src/images/js.png",
+    "technology2": "../src/images/cucumber.png"
+  }
 ]
