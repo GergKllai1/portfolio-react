@@ -4,15 +4,10 @@ import Popup from "reactjs-popup";
 const ProjectCard = props => {
   let project = props.project;
   let Card = ({ title }) => (
-    <div className="card">
-      <div className="header">
-        {title}
-        <div className="content">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam illum
-          minus alias, corporis debitis odio explicabo nihil? Repellendus
-          itaque, et minus magni nihil maxime dolores esse dolorum eaque quas
-          id!
-        </div>
+    <div className="border-2 p-4 text-center bg-grey-lightest -m-2 border-blue-darkest">
+      <div className="text-base font-bold text-lg p-2 border-b-2">{title}</div>
+      <div className="p-2 l-2">
+        {project.detail}
       </div>
     </div>
   );
@@ -35,10 +30,10 @@ const ProjectCard = props => {
             <img
               src="../src/images/details.png"
               alt="Oops there should be an image here!"
-              className="p-px border-2 h-12 rounded-full rounded-lg hover:border-black"
+              className="p-px border-2 h-12 rounded-full rounded-lg hover:border-black cursor-pointer"
             />
           }
-          position="top center"
+          modal
           on="click"
         >
           <Card title={project.name} />
