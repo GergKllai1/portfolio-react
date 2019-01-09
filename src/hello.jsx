@@ -4,7 +4,9 @@ import './Hello.css'
 
 const Hello = () => {
     return (
-        <h1 class="random">Hello World</h1>
+        <div className="text-white -m-4">
+            <img className="bg-cover" src="../src/images/main2.jpg" alt=""/>
+        </div>
     )
 }
 
