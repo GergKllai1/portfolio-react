@@ -1,8 +1,10 @@
 import React from "react"
+import './Hello.css'
+
 
 const Hello = () => {
     return (
-        <div>Hello World</div>
+        <h1 class="random">Hello World</h1>
     )
 }
 
