@@ -31,7 +31,7 @@
     "id": 4,
     "name": "BMI Calcultator in Javascript",
     "image": "../src/images/bmi.jpg",
-    "description": "A simple BMI calculator written in JavaScript tested with cucumber. User can calculate his/her BMI with a toggle for changing from metric to imperial method. The application was made to pratice JS concepct, testing in JS and collaboration with a coding partner. ",
+    "description": "A simple BMI calculator written in JavaScript tested with cucumber. User can calculate his/her BMI with a toggle for changing from metric to imperial method. The application was made to pratice JS concepct, testing in JS using cucumber. ",
     "github": "https://github.com/GergKllai1/BMI-calculator",
     "website": "https://bmicalc.netlify.com/",
     "technology1": "../src/images/js.png",
